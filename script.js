@@ -98,7 +98,7 @@ function recorrerCelda(matriz){
             var celda = new Celda(estado, x, y , matriz);
             var num = celda.contarVecinos(x,y);
             var estado = celda.nuevoEstado(num);
-            console.log("Nuevo estado",estado, x,y)
+            //console.log("Nuevo estado",estado, x,y)
             nuevaMatriz[x][y] = estado;
         }
     }
@@ -116,4 +116,5 @@ function imprimir(matriz){
  var matrizInicial = condicionInicial(filas, columnas);
  imprimir(matrizInicial);
  matrizInicial = recorrerCelda(matrizInicial);
+ console.log("<----Segunda matriz------->")
  imprimir(matrizInicial);

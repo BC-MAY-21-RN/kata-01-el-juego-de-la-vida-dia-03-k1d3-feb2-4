@@ -45,8 +45,14 @@ You should write a program that can accept an arbitrary grid of cells, and will 
 
 ### Clues
 The input starting position could be a text file that looks like this:
-```
+
 Generation 1:
+
+<br>
+
+![Test](img/test.PNG)
+
+```
 4 8
 ........
 ....*...
